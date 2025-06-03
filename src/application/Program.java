@@ -26,6 +26,14 @@ public class Program {
         }
         System.out.println("");
 
+        System.out.println("=== TEST 3: sellet findAll ===");
+        list = sellerDao.findAll();
+        System.out.println("Seller by Department");
+        for (Seller obj : list) {
+            System.out.println(obj);
+        }
+        System.out.println("");
+
     }
 
 }
