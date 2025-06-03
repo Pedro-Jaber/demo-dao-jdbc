@@ -19,7 +19,7 @@ public class Program {
 
         System.out.println("=== TEST 2: sellet findByDepartment ===");
         Department department = new Department(2, null);
-        List<Seller> list = sellerDao.finfByDepartment(department);
+        List<Seller> list = sellerDao.findByDepartment(department);
         System.out.println("Seller by Department");
         for (Seller obj : list) {
             System.out.println(obj);
